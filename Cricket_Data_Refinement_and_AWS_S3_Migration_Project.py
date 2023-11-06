@@ -32,11 +32,11 @@ for inning in json_data['innings']:
 df = pd.DataFrame(flat_data)
 
 # PostgreSQL database connection details
-DB_NAME = 'Raghav'
+DB_NAME = 'your db name'
 DB_USER = 'postgres'
-DB_PASSWORD = 'root'
-DB_HOST = 'localhost'
-DB_PORT = '5432'
+DB_PASSWORD = 'your password'
+DB_HOST = 'your host name put here'
+DB_PORT = 'your port put here'
 
 # Establish a connection to the PostgreSQL database
 conn = psycopg2.connect(
